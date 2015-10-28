@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>User Authentication App:Sign Up</title>
+    <link rel="stylesheet" href="css/sign_up.css"/>
+
+
+</head>
+<body>
+<div>
+    <h1>SIGN UP FORM</h1>
+</div>
+<form>
+    <h3 class='form_item'>Sign Up:</h3>
+    <input class='form_item' type="text" id="username" placeholder='UserName'/>
+    <span role="alert" class='alerts alert_hidden ' > UserName is Already in use</span>
+    <input class='form_item' type="email" id="email" placeholder='Email'/>
+    <span role="alert" class='alerts alert_hidden ' > Email is Already in use</span>
+    <input class='form_item' type="password" id="password" placeholder="Password"/>
+    <span role="alert" class='alerts alert_hidden ' > Password is Invalid</span>
+    <input class='form_item' type="password" id="password_confirm" placeholder="Confirm Password"/>
+    <span role="alert" class='alerts alert_hidden ' > Passwords do not match</span>
+    <span role="alert" class='alerts alert_hidden ' > Required fields can not be blank</span>
+    <button  class='form_item' type="button">Sign Up</button>
+</form>
+
+<script src="js/github_api.js"></script>
+<script type="text/javascript" src="js/mandril_api.js"></script>
+<script src="js/sign_up.js"></script>
+
+</body>
+</html>
